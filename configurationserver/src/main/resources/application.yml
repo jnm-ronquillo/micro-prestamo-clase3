@@ -1,0 +1,24 @@
+server:
+  port: 8888
+spring:
+  cloud:
+    config:
+      server:
+        encrypt.enabled: false
+        git:
+          uri: https://github.com/jnm-ronquillo/sms-config-repo/
+          searchPaths: servicioprestamo, serviciocliente
+          username: usuario
+          password: clave
+#
+#server:
+#    port: 8888
+#spring:
+#  profiles:
+#    active: native
+#  cloud:
+#    config:
+#      server:
+#        native:
+#          search-locations: classpath:config/, classpath:config/servicioprestamo
+          
