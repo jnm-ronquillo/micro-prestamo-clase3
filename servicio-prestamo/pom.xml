@@ -16,7 +16,7 @@
 
 	<properties>
 		<java.version>11</java.version>
-		<docker.image.name>jcabello/fintech-servicio-prestamo</docker.image.name>
+		<docker.image.name>jcabelloc/fintech-servicio-prestamo</docker.image.name>
 	</properties>
 
 	<dependencies>
