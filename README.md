@@ -1,16 +1,16 @@
-<b>En database</b>
+<b>En database:</b>
 
 docker image build -t jcabelloc/postgres .
 
 docker container run -it -p 5432:5432 jcabelloc/postgres
 
-<b>En configuration server</b>
+<b>En configuration server:</b>
 
 set ENCRYPT_KEY=MUYSECRETO
 
 mvn spring-boot:run
 
-<b>En servicioprestamo</b>
+<b>En servicioprestamo:</b>
 
 mvn spring-boot:run
 
