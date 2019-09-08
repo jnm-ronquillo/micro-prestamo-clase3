@@ -14,6 +14,7 @@ mvn spring-boot:run
 
 mvn spring-boot:run
 
+<b>En servicioprestamo:</b>
 <b>Para cambiar de ambiente en lugar de "mvn spring-boot:run" se ejecuta directamente el archivo jar generado por maven</b>
 
 mvn clean package
